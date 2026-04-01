@@ -12,180 +12,111 @@ export interface Experience {
 }
 
 export const experiences: Experience[] = [
-  // ── Current Roles ──────────────────────────────────────────────────
   {
-    id: "mit-bitcoin-expo",
-    title: "Co-Chair, Hackathon & Marketing",
-    company: "MIT Bitcoin Expo",
-    location: "Cambridge, Massachusetts, USA",
-    startDate: "January 2026",
+    id: "oncode-fullstack",
+    title: "Junior Full Stack Developer",
+    company: "Oncode (Pvt) Ltd",
+    location: "Remote",
+    startDate: "August 2025",
     endDate: "Present",
     description:
-      "Co-chairing the hackathon and marketing efforts for the 13th Annual MIT Bitcoin Expo, the longest-running university-hosted Bitcoin event.",
+      "Developing and deploying multiple production web applications using modern full-stack technologies.",
     achievements: [
-      "Co-chair of the 36-hour hackathon with a community-first prize model (70% shared among qualifying participants)",
-      "Designed and built the official event website (mitbitcoinexpo.org) with Next.js, Three.js, and Vercel",
-      "Coordinated speaker lineup, sponsor outreach, and marketing campaigns for the April 2026 conference",
-      "Managing cross-functional collaboration across engineering, design, and operations teams",
+      "Developed and deployed multiple production web applications using React.js, Node.js, Express.js, and MongoDB",
+      "Built and hosted the GIST Campus website for student services and campus information (gistcampus.com)",
+      "Developed the Old Boys Association Membership Management System to manage membership subscription payment plans and track member payments and records (oba.oncodeedu.org)",
+      "Currently developing a Bus Booking Platform with reservation management and scheduling features (afthal.oncodetechsolution.com)",
+      "Collaborated with senior developers using Git workflows, fixing bugs and deploying production updates",
+    ],
+    type: "work",
+  },
+  {
+    id: "rotaract-video-editor",
+    title: "Video Editor",
+    company: "Rotaract Club of Rajarata University",
+    location: "Mihintale, Sri Lanka · Hybrid",
+    startDate: "August 2024",
+    endDate: "January 2026",
+    description:
+      "Produced engaging video content to support club events, campaigns, and community initiatives.",
+    achievements: [
+      "Edited and produced promotional videos for social media campaigns, fundraisers, and awareness programs",
+      "Collaborated with club members to develop creative storytelling concepts for events and initiatives",
+      "Enhanced videos using motion graphics, transitions, and sound design to increase audience engagement",
+      "Delivered high-quality video projects within tight deadlines while maintaining strong visual standards",
+      "Contributed to strengthening the club’s digital presence through creative visual media",
+    ],
+    type: "leadership",
+  }, {
+    id: "rotaract-graphic-designer",
+    title: "Graphic Designer",
+    company: "Rotaract Club of Rajarata University",
+    location: "Mihintale, Sri Lanka · Hybrid",
+    startDate: "August 2024",
+    endDate: "January 2025",
+    description:
+      "Designed visual materials to support club events, campaigns, and social media outreach.",
+    achievements: [
+      "Designed posters, banners, and social media graphics for club initiatives and promotional campaigns",
+      "Created visually engaging promotional materials using Canva for community outreach and events",
+      "Collaborated with team members to develop creative design concepts aligned with club goals",
+      "Maintained consistent visual branding across digital promotional materials",
+      "Delivered high-quality designs under tight deadlines to support event promotions",
     ],
     type: "leadership",
   },
   {
-    id: "ta-cs2000",
-    title: "Teaching Assistant — CS2000",
-    company: "Northeastern University",
-    location: "Boston, Massachusetts, USA",
-    startDate: "September 2025",
-    endDate: "Present",
+    id: "rajarata-majlis-media",
+    title: "Graphic Designer & Video Editor",
+    company: "Rajarata Majlis",
+    location: "Remote",
+    startDate: "January 2025",
+    endDate: "October 2025",
     description:
-      "Serving as a Teaching Assistant for CS2000, supporting students across two consecutive semesters.",
+      "Created digital media content to support Islamic events, campaigns, and community initiatives.",
     achievements: [
-      "Supporting students through office hours, grading, and one-on-one mentoring across Fall 2025 and Spring 2026",
-      "Assisting the instructor with course logistics, assignment feedback, and classroom support",
-      "Providing guidance to students on coursework and academic development",
+      "Designed Islamic posters, event promotions, and educational graphics using Canva",
+      "Produced and edited videos for religious events, awareness campaigns, and community outreach",
+      "Used CapCut to create engaging video content with transitions, effects, and subtitles",
+      "Collaborated with the team to develop visually appealing content for social media platforms",
+      "Strengthened the organization’s online presence through consistent visual storytelling",
     ],
-    type: "work",
-  },
-
-  // ── Previous Work Experience ───────────────────────────────────────
-  {
-    id: "full-stack-dev",
-    title: "Full Stack Web Developer",
-    company: "SRM University - AP",
-    location: "Vijayawada, India",
-    startDate: "January 2024",
-    endDate: "June 2024",
-    description:
-      "Designed and implemented a web portal for faculty-student collaboration in UROP and Capstone projects.",
-    achievements: [
-      "Developed a full-stack web portal using React.js, Node.js, and MongoDB for 3000+ UROP/Capstone students",
-      "Enabled task tracking, document sharing, and access control to streamline collaboration",
-      "Optimized and enhanced UI/UX, reducing page load time by 60% and improving responsiveness across devices",
-      "Achieved 75% grading accuracy improvement and 50% evaluation efficiency boost through workflow automation",
-    ],
-    type: "work",
+    type: "leadership",
   },
   {
-    id: "tech-intern",
-    title: "Technical Intern",
-    company: "SRM University - AP",
-    location: "Vijayawada, India",
-    startDate: "October 2023",
-    endDate: "June 2024",
+    id: "plant-growth-monitoring",
+    title: "Plant Growth Monitoring using OpenCV",
+    company: "Rajarata University of Sri Lanka",
+    location: "Academic Project",
+    startDate: "December 2024",
+    endDate: "December 2024",
     description:
-      "Directed technical operations for university events, encompassing website development and promotional materials.",
+      "Developed a computer vision system to monitor plant growth using timelapse images and image processing techniques.",
     achievements: [
-      "Orchestrated technical operations for 30+ university events, designing and deploying websites with integrated payment gateways",
-      "Increased event participation by 25% through effective technical solutions",
-      "Engineered dashboards and automated flows, increasing user satisfaction by 75% and cutting coordination time by 60%",
-      "Ensured smooth execution through cross-functional collaboration, achieving 95% client satisfaction",
-    ],
-    type: "work",
-  },
-
-  // ── Research ───────────────────────────────────────────────────────
-  {
-    id: "ddos-detection",
-    title: "DDoS Attack Detection using Deep Learning",
-    company: "SRM University - AP",
-    location: "Vijayawada, India",
-    startDate: "March 2023",
-    endDate: "May 2023",
-    description:
-      "Research under Dr. Sambit Kumar Mishra on detecting DDoS attacks in cloud environments using deep learning techniques.",
-    achievements: [
-      "Developed advanced anomaly detection algorithms, achieving an impressive 82% accuracy in threat detection",
-      "Swiftly implemented countermeasures to thwart potential attacks, resulting in a 40% reduction in security breaches",
-      "Applied deep learning models to identify patterns in network traffic for real-time detection of suspicious activities",
-      "Created a scalable monitoring system to handle large volumes of cloud traffic with minimal false positives",
+      "Implemented OpenCV to process and analyze timelapse images of plant growth",
+      "Applied image preprocessing techniques to improve image quality and consistency",
+      "Used segmentation techniques to detect plant regions and analyze growth patterns",
+      "Extracted features such as color variation, leaf count, and growth rate over time",
+      "Visualized plant development trends to provide insights into plant health and growth behavior"
     ],
     type: "research",
   },
   {
-    id: "education-prediction",
-    title: "Higher Education Prediction Algorithm",
-    company: "SRM University - AP",
-    location: "Vijayawada, India",
-    startDate: "June 2022",
-    endDate: "October 2022",
-    description:
-      "Research under Prof. T. Ragunathan on predicting student acceptance into Master's programs based on academic performance metrics.",
-    achievements: [
-      "Developed an AI ML model predicting student acceptance into Masters PG College with 78% accuracy",
-      "Trained the model on diverse exam scores to suggest colleges based on proximity to students' IELTS, GRE, and TOEFL scores",
-      "Led data acquisition and cleansing, ensuring dataset integrity with a 95% accuracy rate",
-      "Optimized the algorithm for efficiency and reliability in making personalized education recommendations",
+    "id": "ai-business-risk-analysis",
+    "title": "AI Powered Business Risk Analysis and Recommendation System for Online Businesses",
+    "company": "Rajarata University of Sri Lanka",
+    "location": "Academic Research Project",
+    "startDate": "December 2025",
+    "endDate": "Present",
+    "description": "Developed an AI-driven system that analyzes Sinhala-English code-mixed customer feedback from e-commerce platforms to identify business risks and generate actionable recommendations.",
+    "achievements": [
+      "Built a custom Code-Mixed Adapter layer on top of XLM-R to effectively handle Sinhala-English code-mixed text",
+      "Implemented aspect-based sentiment analysis using BIO tagging to detect delivery, quality, and trust dimensions",
+      "Designed and implemented a mathematical Business Risk Index (BRI) model to quantify operational risks",
+      "Developed a logic-driven analytics engine that converts sentiment outputs into actionable business insights",
+      "Created a complete end-to-end pipeline from data collection to risk visualization and recommendation generation"
     ],
-    type: "research",
-  },
+    "type": "research"
+  }
 
-  // ── Leadership ─────────────────────────────────────────────────────
-  {
-    id: "technical-executive",
-    title: "Technical Executive",
-    company: "Student Council SRM University - AP",
-    location: "Vijayawada, India",
-    startDate: "August 2023",
-    endDate: "May 2024",
-    description:
-      "Oversaw technical operations for university events and initiatives as part of the Student Council.",
-    achievements: [
-      "Oversaw technical operations, utilizing advanced methodologies to achieve project milestones",
-      "Engineered and enhanced event websites for cultural festivals, ensuring top-tier performance with creative designs",
-      "Managed audiovisual equipment, software applications, and ensured seamless online and offline interactions",
-      "Resolved technical issues promptly, minimizing disruptions and maintaining high standards of execution",
-    ],
-    type: "leadership",
-  },
-  {
-    id: "technical-convener",
-    title: "Technical Team Convener",
-    company: "Student Council SRM University - AP",
-    location: "Vijayawada, India",
-    startDate: "May 2022",
-    endDate: "May 2024",
-    description:
-      "Led the university's technical team, organizing and executing technical aspects of student events.",
-    achievements: [
-      "Led multidisciplinary technical team, achieving seamless collaboration and innovative solutions",
-      "Organized brainstorming sessions with team members to generate website ideas and review progress",
-      "Increased student engagement by 40% through committee formation and industry-aligned website redesigns",
-      "Bridged the gap between technical requirements and student initiatives",
-    ],
-    type: "leadership",
-  },
-  {
-    id: "student-council-member",
-    title: "Member",
-    company: "Student Council SRM University - AP",
-    location: "Andhra Pradesh, India",
-    startDate: "May 2021",
-    endDate: "May 2022",
-    description:
-      "Served as an active member of the university's student council, contributing to student initiatives.",
-    achievements: [
-      "Played a pivotal role in organizing and executing various student events and initiatives",
-      "Collaborated effectively with peers and faculty ensuring the smooth execution of events",
-      "Enhanced the overall student experience through meticulous planning and coordination",
-      "Contributed to website development and technical aspects of student programs",
-    ],
-    type: "leadership",
-  },
-  {
-    id: "student-council-affiliate",
-    title: "Affiliate",
-    company: "Student Council SRM University - AP",
-    location: "Vijayawada, India",
-    startDate: "November 2020",
-    endDate: "May 2021",
-    description:
-      "Started as an affiliate member in the student council, supporting various initiatives.",
-    achievements: [
-      "Assisted in the organization and execution of student events",
-      "Supported the technical team with website and digital content",
-      "Contributed to planning and logistics for university programs",
-      "Participated in student engagement activities and feedback collection",
-    ],
-    type: "leadership",
-  },
 ];

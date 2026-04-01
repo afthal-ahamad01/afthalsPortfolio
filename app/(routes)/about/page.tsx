@@ -10,13 +10,10 @@ import { skills, type SkillCategory } from "@/data/skills";
 import { StarHeader } from "@/components/shared/star-header";
 
 const achievements = [
-  { highlight: "$1,500", label: "Nillion Track Prize — Hacker House Goa 2024" },
-  { highlight: "$600", label: "Move it with Aptos Hackathon" },
-  { highlight: "$500", label: "Optimum Hacknet @ MIT" },
-  { highlight: "$500", label: "Marbelism Track — HACKSRM 5.0 2024" },
-  { highlight: "1st", label: "Appthon 1.0 Winner" },
-  { highlight: "Co-Chair", label: "MIT Bitcoin Expo — Hackathon & Marketing" },
-  { highlight: "Convener", label: "University Technical Team — 40% engagement increase" },
+  { highlight: "3+", label: "Production Web Applications Deployed" },
+  { highlight: "Aug 2025", label: "Started at Oncode (Pvt) Ltd" },
+  { highlight: "gistcampus.com", label: "GIST Campus Website — Live in Production" },
+  { highlight: "BSc IT", label: "Rajarata University of Sri Lanka" },
 ];
 
 export default function AboutPage() {
@@ -54,21 +51,13 @@ export default function AboutPage() {
               <Card>
                 <CardContent className="space-y-4 p-6 leading-relaxed">
                   <p>
-                    I&apos;m Achyut Katiyar, a software engineer pursuing a Master&apos;s in
-                    Computer Science at Northeastern University. I build full-stack applications and
-                    decentralized systems — from production websites serving thousands of users to
-                    blockchain platforms that have won multiple hackathon prizes.
+                    I&apos;m Afthal Ahamad, a Junior Full Stack Developer at Oncode (Pvt) Ltd and a final-year BSc Information Technology undergraduate at Rajarata University of Sri Lanka.
                   </p>
                   <p>
-                    I&apos;m currently Co-Chair of Hackathon and Marketing for the MIT Bitcoin Expo,
-                    where I built the official event website and coordinate the 36-hour hackathon. I
-                    also serve as a Teaching Assistant for CS2000 at Northeastern.
+                    I build real-world web applications using React.js, Node.js, Express.js, PHP, Firebase, MongoDB, and MySQL. My work includes developing the GIST Campus platform, an Old Boys Association Membership Management System, and a Bus Booking Platform currently in development.
                   </p>
                   <p>
-                    My work spans the full stack — Next.js, React, Node.js, TypeScript on the
-                    frontend and backend, Solidity and TEALScript for smart contracts, Python for
-                    data analysis and ML, and Docker/Kubernetes for infrastructure. I&apos;ve won
-                    over $3,000 in hackathon prizes and built projects used by thousands.
+                    I enjoy turning ideas into reliable digital products and continuously expanding my knowledge in software engineering, open source, and machine learning.
                   </p>
                 </CardContent>
               </Card>

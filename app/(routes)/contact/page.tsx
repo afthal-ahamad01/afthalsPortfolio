@@ -79,7 +79,7 @@ export default function ContactPage() {
 
                 <div className="mt-auto pt-6">
                   <h3 className="mb-2 font-medium">Current Location</h3>
-                  <p className="text-sm text-muted-foreground">Boston, Massachusetts, USA</p>
+                  <p className="text-sm text-muted-foreground">Hemmathagama, Mawanella, Sri-Lanka</p>
                 </div>
               </CardContent>
             </Card>

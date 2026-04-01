@@ -3,40 +3,41 @@ import { ClientLayout } from "./client-layout";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Achyut Katiyar | Software Engineer",
+  title: "Afthal Ahamad | Junior Full Stack Developer",
   description:
-    "Software Engineer building full-stack applications and decentralized systems. MS Computer Science at Northeastern University. Co-Chair of MIT Bitcoin Expo.",
-  metadataBase: new URL("https://achyutkatiyar.com"),
+    "Junior Full Stack Developer building production web applications with React.js, Node.js, Express.js, and MongoDB. Based in Kegalle, Sri Lanka.",
+  metadataBase: new URL("https://github.com/afthal-ahamad01"),
 
   // Basic metadata
-  applicationName: "Achyut Katiyar Portfolio",
-  authors: [{ name: "Achyut Katiyar" }],
+  applicationName: "Afthal Ahamad Portfolio",
+  authors: [{ name: "Afthal Ahamad" }],
   keywords: [
-    "Software Engineer",
     "Full Stack Developer",
-    "Blockchain",
-    "Web3",
-    "Next.js",
-    "React",
+    "Junior Developer",
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "JavaScript",
     "TypeScript",
-    "Northeastern University",
-    "MIT Bitcoin Expo",
+    "Sri Lanka",
+    "Web Developer",
   ],
 
   openGraph: {
     type: "website",
-    url: "https://achyutkatiyar.com",
-    title: "Achyut Katiyar | Software Engineer",
+    url: "https://github.com/afthal-ahamad01",
+    title: "Afthal Ahamad | Junior Full Stack Developer",
     description:
-      "Software Engineer building full-stack applications and decentralized systems. MS CS at Northeastern. Co-Chair of MIT Bitcoin Expo.",
-    siteName: "Achyut Katiyar",
+      "Junior Full Stack Developer building production web applications with React.js, Node.js, Express.js, and MongoDB.",
+    siteName: "Afthal Ahamad",
     locale: "en_US",
     images: [
       {
         url: "/images/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Achyut Katiyar - Portfolio",
+        alt: "Afthal Ahamad - Portfolio",
       },
     ],
   },
@@ -47,7 +48,7 @@ export const metadata: Metadata = {
   },
 
   alternates: {
-    canonical: "https://achyutkatiyar.com",
+    canonical: "https://github.com/afthal-ahamad01",
   },
 };
 

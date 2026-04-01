@@ -12,10 +12,9 @@ import { getIconComponent } from "@/lib/icons";
 import { StarHeader } from "@/components/shared/star-header";
 
 const displayedSkills = [
-  "Software Engineer",
-  "Full Stack Developer",
-  "Blockchain Builder",
-  "Systems Thinker",
+  "Junior Full Stack Developer",
+  "Open Source Contributor",
+  "Machine Learning Explorer",
 ];
 
 export function Hero() {
@@ -47,7 +46,7 @@ export function Hero() {
                   transition={{ duration: 0.5 }}
                 >
                   <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-                    Hi, I&apos;m Achyut Katiyar
+                    Hi, I&apos;m Afthal Ahamad
                   </h1>
                 </motion.div>
                 <motion.div
@@ -60,11 +59,10 @@ export function Hero() {
                     {displayedSkills.map((skill, index) => (
                       <div
                         key={skill}
-                        className={`absolute transform transition-all duration-500 ${
-                          index === currentSkillIndex
-                            ? "translate-y-0 opacity-100"
-                            : "translate-y-8 opacity-0"
-                        }`}
+                        className={`absolute transform transition-all duration-500 ${index === currentSkillIndex
+                          ? "translate-y-0 opacity-100"
+                          : "translate-y-8 opacity-0"
+                          }`}
                       >
                         <h2 className="text-2xl font-semibold text-primary sm:text-3xl">{skill}</h2>
                       </div>
@@ -77,8 +75,8 @@ export function Hero() {
                   transition={{ duration: 0.5, delay: 0.2 }}
                   className="max-w-[600px] text-muted-foreground md:text-xl"
                 >
-                  Software engineer building full-stack applications and decentralized systems. MS
-                  Computer Science at Northeastern University. Co-Chair of MIT Bitcoin Expo.
+                  Junior Full Stack Developer building real-world web applications using React.js, Node.js, Express.js, PHP, Firebase, MongoDB, and MySQL.
+                  Passionate about open source, scalable software, and machine learning. Based in Kegalle, Sri Lanka.
                 </motion.p>
               </div>
 
@@ -97,8 +95,7 @@ export function Hero() {
                 </Button>
                 <Button variant="outline" size="lg" asChild>
                   <a
-                    href="/resume.pdf"
-                    download="Achyut_Katiyar_Resume.pdf"
+                    href="https://drive.google.com/file/d/1-v68DRtSb5-UqBrvGAhvauRCog7u6Aoi/view"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -150,8 +147,8 @@ export function Hero() {
             >
               <div className="relative aspect-square w-full max-w-md overflow-hidden rounded-full">
                 <Image
-                  src="/images/profile.webp"
-                  alt="Achyut Katiyar"
+                  src="/images/new.webp"
+                  alt="Afthal Ahamad"
                   fill
                   className="object-cover"
                   priority

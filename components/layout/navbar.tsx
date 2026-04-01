@@ -147,8 +147,7 @@ function MobileMenu({
                 {/* Resume download button */}
                 <div className="mt-2 border-t border-border/30 pt-2">
                   <a
-                    href="/resume.pdf"
-                    download="Achyut_Katiyar_Resume.pdf"
+                    href="https://drive.google.com/file/d/1-v68DRtSb5-UqBrvGAhvauRCog7u6Aoi/view"
                     target="_blank"
                     rel="noopener noreferrer"
                     onClick={onClose}
@@ -256,7 +255,7 @@ export function Navbar() {
                       animate={{ opacity: 1, x: 0 }}
                       transition={{ duration: 0.5 }}
                     >
-                      Achyut Katiyar
+                      Afthal Ahamad
                     </motion.span>
                   </Link>
                 </div>
