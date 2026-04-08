@@ -47,6 +47,29 @@ export const projects: Project[] = [
     liveUrl: "https://oba.oncodeedu.org/index.php",
     featured: true,
   },
+  {
+    id: "foodora-mobile-app",
+    title: "Foodora – Food Ordering Android Application",
+    description:
+      "An offline-first Android food ordering application that allows users to browse menus, manage carts, and place orders.",
+    longDescription:
+      "Foodora is a fully functional offline-first Android mobile application developed as part of the ICT3214 Mobile Application Development module. The app provides a complete food ordering experience where users can browse a dynamic menu, view detailed item descriptions, manage a shopping cart, place orders, and manage their profiles. Built using Java and SQLite, the application demonstrates robust local data management, secure user authentication, and a modern mobile UI.",
+    technologies: [
+      "Java",
+      "Android",
+      "SQLite"
+    ],
+    achievements: [
+      "Developed an offline-first Android food ordering application",
+      "Implemented local database management using SQLite",
+      "Built dynamic menu browsing and detailed item views",
+      "Implemented shopping cart and order placement features",
+      "Designed a modern and user-friendly Android interface"
+    ],
+    image: "/images/projects/foodora/foodora.webp",
+    github: "https://github.com/Mihiran-Thilakarathna/FoodOrderingApp",
+    featured: false,
+  },
 
   {
     id: "bus-booking",
@@ -80,6 +103,29 @@ export const projects: Project[] = [
     ],
     image: "/images/projects/plant-growth/plant-growth.webp",
     github: "https://github.com/afthal-ahamad01/plant-growth-monitoring",
+    featured: false,
+  },
+  {
+    id: "personal-organizer",
+    title: "Personal Organizer – Desktop Application",
+    description:
+      "A desktop application for managing personal finances and daily tasks, including income and expense tracking, task management, and budgeting.",
+    longDescription:
+      "Developed a personal organizer desktop application using C++ and .NET to help users manage finances and daily tasks. The application includes features for tracking income and expenses, managing tasks, and maintaining budgets. Implemented a user-friendly interface and integrated an SQL database to securely store and manage user data while providing real-time financial summaries.",
+    technologies: [
+      "C++",
+      ".NET",
+      "SQL",
+    ],
+    achievements: [
+      "Developed a desktop application for tracking income, expenses, tasks, and budgeting",
+      "Implemented a user-friendly interface using C++ and .NET",
+      "Integrated an SQL database to securely store and manage user data",
+      "Added functionalities for adding, editing, and deleting financial records",
+      "Designed an intuitive dashboard and form-based UI for easy navigation",
+    ],
+    image: "/images/projects/personal-organizer/personal-organizer.webp",
+    github: "https://github.com/afthal-ahamad01/Personal_Organizer",
     featured: false,
   },
   {
