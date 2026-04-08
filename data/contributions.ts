@@ -44,7 +44,7 @@ export const contributions: Contribution[] = [
   },
   {
     id: "asp-ij-benchmarking-tool",
-    title: "Built-in Benchmarking Tool for Active Segmentation Platform (ASP/IJ)",
+    title: "International Neuroinformatics Coordinating Facility (INCF) - Benchmarking Tool for ASP/IJ",
     description: "Developed and merged a performance benchmarking tool for the Active Segmentation Platform for ImageJ. This tool compares CPU and GPU execution times of convolution filters, calculates speedup multipliers, and exports results to CSV — laying the foundation for the GSoC 2026 Parallel Engine project with TornadoVM.",
     type: "open-source",
     technologies: ["Java", "Swing", "ImageJ", "JUnit"],

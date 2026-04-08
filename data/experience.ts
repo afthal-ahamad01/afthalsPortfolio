@@ -47,23 +47,6 @@ export const experiences: Experience[] = [
       "Contributed to strengthening the club’s digital presence through creative visual media",
     ],
     type: "leadership",
-  }, {
-    id: "rotaract-graphic-designer",
-    title: "Graphic Designer",
-    company: "Rotaract Club of Rajarata University",
-    location: "Mihintale, Sri Lanka · Hybrid",
-    startDate: "August 2024",
-    endDate: "January 2025",
-    description:
-      "Designed visual materials to support club events, campaigns, and social media outreach.",
-    achievements: [
-      "Designed posters, banners, and social media graphics for club initiatives and promotional campaigns",
-      "Created visually engaging promotional materials using Canva for community outreach and events",
-      "Collaborated with team members to develop creative design concepts aligned with club goals",
-      "Maintained consistent visual branding across digital promotional materials",
-      "Delivered high-quality designs under tight deadlines to support event promotions",
-    ],
-    type: "leadership",
   },
   {
     id: "rajarata-majlis-media",
@@ -84,22 +67,22 @@ export const experiences: Experience[] = [
     type: "leadership",
   },
   {
-    id: "plant-growth-monitoring",
-    title: "Plant Growth Monitoring using OpenCV",
-    company: "Rajarata University of Sri Lanka",
-    location: "Academic Project",
-    startDate: "December 2024",
-    endDate: "December 2024",
+    id: "rotaract-graphic-designer",
+    title: "Graphic Designer",
+    company: "Rotaract Club of Rajarata University",
+    location: "Mihintale, Sri Lanka · Hybrid",
+    startDate: "August 2024",
+    endDate: "January 2025",
     description:
-      "Developed a computer vision system to monitor plant growth using timelapse images and image processing techniques.",
+      "Designed visual materials to support club events, campaigns, and social media outreach.",
     achievements: [
-      "Implemented OpenCV to process and analyze timelapse images of plant growth",
-      "Applied image preprocessing techniques to improve image quality and consistency",
-      "Used segmentation techniques to detect plant regions and analyze growth patterns",
-      "Extracted features such as color variation, leaf count, and growth rate over time",
-      "Visualized plant development trends to provide insights into plant health and growth behavior"
+      "Designed posters, banners, and social media graphics for club initiatives and promotional campaigns",
+      "Created visually engaging promotional materials using Canva for community outreach and events",
+      "Collaborated with team members to develop creative design concepts aligned with club goals",
+      "Maintained consistent visual branding across digital promotional materials",
+      "Delivered high-quality designs under tight deadlines to support event promotions",
     ],
-    type: "research",
+    type: "leadership",
   },
   {
     "id": "ai-business-risk-analysis",
@@ -117,6 +100,25 @@ export const experiences: Experience[] = [
       "Created a complete end-to-end pipeline from data collection to risk visualization and recommendation generation"
     ],
     "type": "research"
+  },
+  {
+    id: "plant-growth-monitoring",
+    title: "Plant Growth Monitoring using OpenCV",
+    company: "Rajarata University of Sri Lanka",
+    location: "Academic Project",
+    startDate: "December 2024",
+    endDate: "December 2024",
+    description:
+      "Developed a computer vision system to monitor plant growth using timelapse images and image processing techniques.",
+    achievements: [
+      "Implemented OpenCV to process and analyze timelapse images of plant growth",
+      "Applied image preprocessing techniques to improve image quality and consistency",
+      "Used segmentation techniques to detect plant regions and analyze growth patterns",
+      "Extracted features such as color variation, leaf count, and growth rate over time",
+      "Visualized plant development trends to provide insights into plant health and growth behavior"
+    ],
+    type: "research",
   }
+
 
 ];

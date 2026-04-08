@@ -24,7 +24,7 @@ export function Footer() {
             <h3 className="text-lg font-bold">Afthal Ahamad</h3>
             <p className="max-w-xs text-sm text-muted-foreground">
               Junior Full Stack Developer based in Kegalle, Sri Lanka. Building production web
-              applications with React.js, Node.js, and MongoDB.
+              applications.
             </p>
           </div>
 
@@ -58,7 +58,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="/resume.pdf"
+                  href="https://drive.google.com/file/d/1-v68DRtSb5-UqBrvGAhvauRCog7u6Aoi/view"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-1 text-sm text-muted-foreground transition-colors hover:text-primary"

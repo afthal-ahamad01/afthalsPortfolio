@@ -13,30 +13,7 @@ export interface Project {
 
 export const projects: Project[] = [
   // ── Featured Projects ──────────────────────────────────────────────
-  {
-    id: "lanka-mall",
-    title: "Lanka Mall – E-Commerce Platform",
-    description:
-      "A full-stack e-commerce platform with authentication, product management, and a responsive UI.",
-    longDescription:
-      "Built a full-stack e-commerce platform with authentication and product management. Developed a responsive frontend using React.js and Tailwind CSS, and implemented backend services using Node.js, Express.js, and MongoDB.",
-    technologies: [
-      "React.js",
-      "Tailwind CSS",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "JavaScript",
-    ],
-    achievements: [
-      "Built a full-stack e-commerce platform with authentication and product management",
-      "Developed responsive frontend using React.js and Tailwind CSS",
-      "Implemented backend services using Node.js, Express.js, and MongoDB",
-    ],
-    image: "/images/projects/lanka-mall/lanka-mall.webp",
-    github: "https://github.com/afthal-ahamad01/my-ecommerce-site",
-    featured: true,
-  },
+
   {
     id: "gist-campus",
     title: "GIST Campus Website",
@@ -44,7 +21,7 @@ export const projects: Project[] = [
       "A campus information and student services website built and hosted for GIST Campus.",
     longDescription:
       "Built and hosted the GIST Campus website for student services and campus information as part of my role at Oncode (Pvt) Ltd.",
-    technologies: ["React.js", "Node.js", "Express.js", "MongoDB"],
+    technologies: ["React.js", "Tailwind CSS", "Firebase"],
     achievements: [
       "Built and deployed a fully functional campus website serving student services and information",
       "Collaborated with the Oncode team using Git workflows for seamless deployment",
@@ -60,7 +37,7 @@ export const projects: Project[] = [
       "A membership management system to handle subscriptions, payment plans, and member records.",
     longDescription:
       "Developed the Old Boys Association Membership Management System to manage membership subscription payment plans and track member payments and records.",
-    technologies: ["PHP", "MySQL", "JavaScript", "HTML", "CSS"],
+    technologies: ["PHP", "Tailwind CSS", "MySQL", "JavaScript", "HTML", "CSS"],
     achievements: [
       "Developed a comprehensive membership management system for subscription payment plans",
       "Implemented tracking for member payments and records",
@@ -70,6 +47,7 @@ export const projects: Project[] = [
     liveUrl: "https://oba.oncodeedu.org/index.php",
     featured: true,
   },
+
   {
     id: "bus-booking",
     title: "Bus Booking Platform",
@@ -77,7 +55,7 @@ export const projects: Project[] = [
       "A bus seat booking platform with reservation management and scheduling features.",
     longDescription:
       "Currently developing a Bus Booking Platform with reservation management and scheduling features, including seat selection, passenger details, and booking management.",
-    technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "JavaScript"],
+    technologies: ["PHP", "Tailwind CSS", "MySQL", "JavaScript", "HTML", "CSS"],
     achievements: [
       "Building a comprehensive bus booking system with reservation and scheduling features",
       "Implementing seat selection and passenger management functionalities",
@@ -101,6 +79,31 @@ export const projects: Project[] = [
       "Visualized plant growth patterns to provide insights into plant health and development",
     ],
     image: "/images/projects/plant-growth/plant-growth.webp",
+    github: "https://github.com/afthal-ahamad01/plant-growth-monitoring",
     featured: false,
+  },
+  {
+    id: "lanka-mall",
+    title: "Lanka Mall – E-Commerce Platform",
+    description:
+      "A full-stack e-commerce platform with authentication, product management, and a responsive UI.",
+    longDescription:
+      "Built a full-stack e-commerce platform with authentication and product management. Developed a responsive frontend using React.js and Tailwind CSS, and implemented backend services using Node.js, Express.js, and MongoDB.",
+    technologies: [
+      "React.js",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JavaScript",
+    ],
+    achievements: [
+      "Built a full-stack e-commerce platform with authentication and product management",
+      "Developed responsive frontend using React.js and Tailwind CSS",
+      "Implemented backend services using Node.js, Express.js, and MongoDB",
+    ],
+    image: "/images/projects/lanka-mall/lanka-mall.webp",
+    github: "https://github.com/afthal-ahamad01/my-ecommerce-site",
+    featured: true,
   },
 ];
